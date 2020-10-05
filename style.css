@@ -1,0 +1,16 @@
+body{
+  background-color: DarkSlateGray;
+  color: Orange;
+}
+h1 {color: Maroon;
+  font-family: Verdana,Geneva,sans-serif;
+  text-shadow: 2px 2px 2px #888;
+}
+
+h2 {color: RoyalBlue;
+  font-family: Verdana,Geneva,sans-serif;
+}
+
+body {color: Goldenrod;
+  font-family: 'Noto Sans JP', sans-serif;
+}
