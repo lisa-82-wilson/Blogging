@@ -2,15 +2,31 @@ body{
   background-color: DarkSlateGray;
   color: Orange;
 }
-h1 {color: Maroon;
+h1 {color: Green;
   font-family: Verdana,Geneva,sans-serif;
   text-shadow: 2px 2px 2px #888;
 }
 
-h2 {color: RoyalBlue;
+h2 {color: LimeGreen;
   font-family: Verdana,Geneva,sans-serif;
 }
 
-body {color: Goldenrod;
+body {color: DarkOrange;
   font-family: 'Noto Sans JP', sans-serif;
+}
+li{color: DarkOrchid;
+}
+
+a:link {
+	color: GreenYellow;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a:visited {
+	color: Indigo;
+	text-decoration: none;
 }
