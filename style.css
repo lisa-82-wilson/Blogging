@@ -2,6 +2,7 @@ body{
   background-color: DarkSlateGray;
   color: Orange;
 }
+
 h1 {color: Green;
   font-family: Verdana,Geneva,sans-serif;
   text-shadow: 2px 2px 2px #888;
@@ -14,6 +15,7 @@ h2 {color: LimeGreen;
 body {color: DarkOrange;
   font-family: 'Noto Sans JP', sans-serif;
 }
+
 li{color: DarkOrchid;
 }
 
