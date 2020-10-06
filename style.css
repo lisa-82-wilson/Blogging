@@ -11,9 +11,10 @@ body{
 h1 {color: Green;
   font-family: Verdana,Geneva,sans-serif;
   text-shadow: 2px 2px 2px #888;
-  font-size: 36px;
+  font-size: 36px;.
   font-weight: bold;
   font-style: oblique;
+  text-align: center;
 }
 
 h2 {color: LimeGreen;
@@ -24,13 +25,19 @@ h2 {color: LimeGreen;
 body {color: DarkOrange;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 20px
+  text-align: left;
 }
 
 li{color: DarkOrchid;
   font-size: 18px;
 }
 
-a:link {
+p{line-height: 1.5
+}
+
+a:link,
+a:focus,
+a:active {
 	color: Chartreuse;
 	text-decoration: none;
 }
@@ -42,4 +49,7 @@ a:hover {
 a:visited {
 	color: Crimson;
 	text-decoration: none;
+}
+
+footer p {font-size: 13px
 }
