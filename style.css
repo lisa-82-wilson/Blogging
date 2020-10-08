@@ -8,7 +8,7 @@
 
 .title {
   font-size: 48px;
-  
+
   /*text-decoration: underline;*/
 }
 
@@ -19,8 +19,29 @@ footer{
   padding: 30px;
 }
 
+
 header {
   border-bottom: 5px solid grey;
+}
+
+.banner {
+  height: 350px;
+  background-image: url(Images/sunflowers.jpg);
+  background-size: cover;
+  background-position:center;
+}
+
+.photo {
+  background-position: 50% right;
+}
+
+.icon {
+  background-position: 0 100px;
+}
+
+.box {
+  background-image: url(Images/sunflowers.jpg);
+  background-size: 100%;
 }
 
 h1 {
@@ -75,6 +96,7 @@ section{
 }
 
 body {
+  background-image: url(Images/leaves.png);
   color: DarkOrange;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 20px
@@ -96,6 +118,14 @@ ol{
   line-height: 1.6;
 }
 
+.box {
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.box p {
+  font-size: 24px;
+}
 
 a:hover {
 	text-decoration:underline;
@@ -104,6 +134,11 @@ a:hover {
 a:visited {
 	color: Crimson;
 	text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 footer p {font-size: 15px
