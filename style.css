@@ -1,15 +1,14 @@
 /*CSS styles*/
 * {font size: 100%
   margin: 0;
-  line-height: 1;
+  line-height: 1.6;
   box-sizing: border-box;
 }
   /*border: 1px solid yellow;*/
 
 .title {
   font-size: 48px;
-
-  /*text-decoration: underline;*/
+/*text-decoration: underline;*/
 }
 
 }
@@ -89,8 +88,8 @@ section{
   padding: 5px;
 }
 /* Clear floats after image containers */
-.row::after {
-  content: "";
+.row:after {
+  content: "column";
   clear: both;
   display: table;
 }
