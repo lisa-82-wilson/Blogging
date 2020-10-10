@@ -1,25 +1,22 @@
 /*CSS styles*/
-* {font size: 100%
+* {font-size: 100%;
   margin: 0;
   line-height: 1.6;
   box-sizing: border-box;
-}
   /*border: 1px solid yellow;*/
+}
 
 .title {
   font-size: 48px;
 /*text-decoration: underline;*/
 }
 
-header,
-section,
-footer{
-  padding: 30px;
-}
-
-
 header {
   border-bottom: 5px solid grey;
+}
+
+header h1{
+  text-align: center;
 }
 
 .banner {
@@ -30,27 +27,15 @@ header {
 }
 
 .sunflowers {
-  background-position: 50% right;
+  background-position: 50%;
 }
-
-.icon {
-  background-position: 0 100px;
-}
-
-/*
-.box {
-  background-image: url(Images/sunflowers.jpg);
-  background-size: 100%;
-}*/
-
-h1 {
-  margin: 30px 0;
-}
-
-body{
-  background-color: DarkSlateGray;
-  color: Orange;
+body {
+  background-image: url(Images/leaves.png);
+  background-repeat: repeat;
+  color: Darkorange;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 900;
+  text-align: left;
   margin: 50px
 }
 
@@ -62,73 +47,81 @@ h1 {
   color: Green;
   font-family: Verdana,Geneva,sans-serif;
   text-shadow: 2px 2px 5px black;
-  font-size: 36px;
+  font-size: 38px;
   font-weight: bold;
   font-style: oblique;
   text-align: center;
-
+  margin-bottom: 20px;
 }
 
 h2 {
   color: LimeGreen;
   font-family: Verdana,Geneva,sans-serif;
-  font size: 24px;
+  text-shadow: 2px 2px 5px black;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom:inherit;
 }
 
-section{
+h3 {
+  color: DarkGoldenRod;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+section {
   border: 1px dashed SlateBlue;
   background-color: black;
-  margin:20px;
-  padding: 20px;
+  color: Darkorange;
+  margin: 20px;
+  padding: 30px;
 }
 
-/* Three image containers*/
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-/* Clear floats after image containers */
 .row:after {
   content: "column";
   clear: both;
   display: table;
 }
 
-body {
-  background-image: url(Images/leaves.png);
-  color: DarkOrange;
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size: 20px
-  text-align: left;
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
-li{
-  color: DarkOrchid;
+/* Clear floats after image containers */
+
+
+p {
+  line-height: 2;
+  margin: 15px 0;
+}
+
+ul, ol {
+  margin: 15px 0;
+  line-height: 1.6;
+  text-align: center;
+}
+
+li {
+  color: darkorchid;
   font-size: 18px;
 }
 
-p{
-  line-height: 1.6
-  margin: 15px 0;
-}
-ul,
-ol{
-  margin: 15px 0;
-  line-height: 1.6;
-}
-
-.box {
-  border: 1px solid black;
-  padding: 30px;
-}
-
-.box p {
-  font-size: 24px;
+a {
+  text-decoration: none;
+  color:Chartreuse;
 }
 
 a:hover {
-	text-decoration:underline;
+	text-decoration: underline;
+}
+
+header, section, footer {
+  padding: 30px;
 }
 
 a:visited {
@@ -136,10 +129,10 @@ a:visited {
 	text-decoration: none;
 }
 
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
+Footer p {
+  font-size: 15px;
+  text-align:inherit;
+  color: black;
+  display:block;
 
-footer p {font-size: 15px
 }
