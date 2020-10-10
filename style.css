@@ -34,7 +34,7 @@ body {
   background-repeat: repeat;
   color: Darkorange;
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 900;
+  font-size: 20px;
   text-align: left;
   margin: 50px
 }
@@ -80,7 +80,7 @@ section {
   padding: 30px;
 }
 
-.row:after {
+.row::after {
   content: "column";
   clear: both;
   display: table;
@@ -94,7 +94,6 @@ section {
 
 /* Clear floats after image containers */
 
-
 p {
   line-height: 2;
   margin: 15px 0;
@@ -102,13 +101,15 @@ p {
 
 ul, ol {
   margin: 15px 0;
-  line-height: 1.6;
-  text-align: center;
+  line-height: 2;
+  text-align: left;
 }
 
 li {
   color: darkorchid;
   font-size: 18px;
+  list-style-position: inside;
+
 }
 
 a {
